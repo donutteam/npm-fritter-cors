@@ -1,0 +1,26 @@
+{
+  "name": "@fritter/cors",
+  "version": "1.0.0",
+  "description": "./lib/index.js",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "npx rimraf lib && npx tsc",
+    "lint": "eslint . -c ./.eslintrc.cjs",
+    "lint-fix": "eslint . -c ./.eslintrc.cjs --fix",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "fritter",
+    "middleware"
+  ],
+  "author": "Donut Team",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@donutteam/eslint-config": "^2.0.0",
+    "@fritter/core": "^0.1.6",
+    "eslint": "^8.44.0",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  }
+}
