@@ -32,10 +32,10 @@ export class FritterCORSMiddleware
 		this.execute = async (context, next) =>
 		{
 			//
-			// Get Request Origin
+			// Get Origin Header
 			//
 
-			const origin = context.fritterRequest.getOrigin();
+			const origin = context.fritterRequest.getHeaderValue("Origin");
 
 			//
 			// Append Origin to Vary Header
