@@ -1,6 +1,6 @@
 {
 	"name": "@fritter/cors",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "A CORS middleware for the Fritter web framework.",
 	"main": "./lib/index.js",
 	"scripts": {
