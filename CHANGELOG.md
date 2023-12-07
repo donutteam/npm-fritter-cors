@@ -1,3 +1,9 @@
+## 1.0.5
+
+* Removing eslint config and packages.
+* Moved `@fritter/core` to peerDependencies.
+* Updated `typescript` package.
+
 ## 1.0.4
 Updating packages.
 

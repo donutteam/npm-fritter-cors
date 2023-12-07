@@ -16,11 +16,11 @@
 	"author": "Donut Team",
 	"license": "MIT",
 	"type": "module",
+	"peerDependencies": {
+		"@fritter/core": "0.x"
+	},
 	"devDependencies": {
-		"@donutteam/eslint-config": "^3.0.0",
-		"@fritter/core": "^0.1.9",
-		"eslint": "^8.52.0",
 		"rimraf": "^5.0.5",
-		"typescript": "^5.2.2"
+		"typescript": "^5.3.3"
 	}
 }
